@@ -1,0 +1,75 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add a global font and center the text */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+nav {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+
+/* Style the recipe cards */
+.recipe-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.recipe-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto;
+}
+
+.recipe-card h2, .recipe-card p {
+  text-align: left;
+}
+
+/* Style the form */
+form {
+  width: 40%;
+  margin: auto;
+}
+
+form label {
+  text-align: left;
+  display: block;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
